@@ -6,18 +6,16 @@ Single file or batch the whole folder. Uses `delogo` (per-pixel interpolation) p
 
 ## Examples
 
-Side-by-side (480p re-encoded for size — actual output keeps source resolution):
-
-https://github.com/user-attachments/assets/comparison-placeholder
-
-Pairs (drop them into any player to compare):
+Two before/after pairs from real Dreamina output, plus a side-by-side comparison clip. All are 480p re-encodes for size — the actual script keeps your source resolution.
 
 | | Original | Clean |
 |---|---|---|
-| Static camera, soft sky | [examples/01-original.mp4](examples/01-original.mp4) | [examples/01-clean.mp4](examples/01-clean.mp4) |
-| Shaky handheld, busy ground | [examples/02-original.mp4](examples/02-original.mp4) | [examples/02-clean.mp4](examples/02-clean.mp4) |
+| Static camera, soft sky background — easy case, watermark vanishes | [examples/01-original.mp4](examples/01-original.mp4) | [examples/01-clean.mp4](examples/01-clean.mp4) |
+| Shaky handheld, busy detailed ground — harder case, motion hides any softness | [examples/02-original.mp4](examples/02-original.mp4) | [examples/02-clean.mp4](examples/02-clean.mp4) |
 
-Side-by-side preview: [examples/comparison.mp4](examples/comparison.mp4)
+Side-by-side comparison (6s, labeled): [examples/comparison.mp4](examples/comparison.mp4)
+
+> GitHub renders `.mp4` links inline on the file page — click any link above to play in browser.
 
 ## Why
 
