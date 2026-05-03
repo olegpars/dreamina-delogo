@@ -4,6 +4,21 @@ Remove Dreamina's top-left **AI** badge watermark from generated videos. Pure FF
 
 Single file or batch the whole folder. Uses `delogo` (per-pixel interpolation) plus a radial-feathered gaussian blur on top so you don't see the rectangular seam — the patch fades smoothly into the surrounding image.
 
+## Examples
+
+Side-by-side (480p re-encoded for size — actual output keeps source resolution):
+
+https://github.com/user-attachments/assets/comparison-placeholder
+
+Pairs (drop them into any player to compare):
+
+| | Original | Clean |
+|---|---|---|
+| Static camera, soft sky | [examples/01-original.mp4](examples/01-original.mp4) | [examples/01-clean.mp4](examples/01-clean.mp4) |
+| Shaky handheld, busy ground | [examples/02-original.mp4](examples/02-original.mp4) | [examples/02-clean.mp4](examples/02-clean.mp4) |
+
+Side-by-side preview: [examples/comparison.mp4](examples/comparison.mp4)
+
 ## Why
 
 Dreamina (and most AI video generators) stamps a small badge in the corner. If you're cutting a Reel/Short and want it to look clean — you need it gone. Online tools want you to upload your videos to their server. This script does it on your laptop in ~30 seconds per 15-second clip.

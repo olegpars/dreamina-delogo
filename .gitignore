@@ -12,7 +12,3 @@ _frame.png
 _preview.png
 _test-*.mp4
 examples/test-*
-
-# Local examples (until added explicitly)
-examples/*.mp4
-examples/*.mov
