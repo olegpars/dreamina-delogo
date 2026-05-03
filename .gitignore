@@ -12,3 +12,7 @@ _frame.png
 _preview.png
 _test-*.mp4
 examples/test-*
+
+# Allow committed example pairs
+!examples/01-clean.mp4
+!examples/02-clean.mp4
